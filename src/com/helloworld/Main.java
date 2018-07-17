@@ -3,6 +3,7 @@ package com.helloworld;
 public class Main {
 
     public static void main(String[] args) {
-	System.out.println("Hello java!");
+        Loop loopObj = new Loop(12, 34);
+        loopObj.display();
     }
 }
